@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2E233081F8F72AA0063EB71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E233071F8F72AA0063EB71 /* AppDelegate.swift */; };
+		B2E2330A1F8F72AA0063EB71 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E233091F8F72AA0063EB71 /* LogInViewController.swift */; };
+		B2E2330D1F8F72AB0063EB71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E2330B1F8F72AB0063EB71 /* Main.storyboard */; };
+		B2E2330F1F8F72AB0063EB71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E2330E1F8F72AB0063EB71 /* Assets.xcassets */; };
+		B2E233121F8F72AB0063EB71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E233101F8F72AB0063EB71 /* LaunchScreen.storyboard */; };
+		B2E2331A1F8F73980063EB71 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E233191F8F73980063EB71 /* CategoryViewController.swift */; };
+		B2E2331C1F8F73BC0063EB71 /* TaslListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E2331B1F8F73BC0063EB71 /* TaslListViewController.swift */; };
+		B2E2331E1F8F8EF30063EB71 /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E2331D1F8F8EF30063EB71 /* NewTaskViewController.swift */; };
+		B2E233221F8F8F810063EB71 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E233211F8F8F810063EB71 /* ProfileViewController.swift */; };
+		B2E233251F8F90290063EB71 /* Category.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E233241F8F90290063EB71 /* Category.storyboard */; };
+		B2E233281F8F90650063EB71 /* NewTask.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E233261F8F90650063EB71 /* NewTask.storyboard */; };
+		B2E2332A1F8F90790063EB71 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E233291F8F90790063EB71 /* Profile.storyboard */; };
+		B2E2332D1F8F909B0063EB71 /* TaskList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E2332B1F8F909B0063EB71 /* TaskList.storyboard */; };
+		B2E2332F1F8F90B20063EB71 /* LogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E2332E1F8F90B20063EB71 /* LogIn.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2E233041F8F72A90063EB71 /* managerTaskParkMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = managerTaskParkMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E233071F8F72AA0063EB71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2E233091F8F72AA0063EB71 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LogInViewController.swift; path = managerTaskParkMail/LogInViewController.swift; sourceTree = "<group>"; };
+		B2E2330C1F8F72AB0063EB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2E2330E1F8F72AB0063EB71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2E233111F8F72AB0063EB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2E233131F8F72AB0063EB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2E233191F8F73980063EB71 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryViewController.swift; path = managerTaskParkMail/CategoryViewController.swift; sourceTree = "<group>"; };
+		B2E2331B1F8F73BC0063EB71 /* TaslListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaslListViewController.swift; path = managerTaskParkMail/TaslListViewController.swift; sourceTree = "<group>"; };
+		B2E2331D1F8F8EF30063EB71 /* NewTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
+		B2E233211F8F8F810063EB71 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B2E233241F8F90290063EB71 /* Category.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Category.storyboard; path = managerTaskParkMail/Category.storyboard; sourceTree = "<group>"; };
+		B2E233271F8F90650063EB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/NewTask.storyboard; sourceTree = "<group>"; };
+		B2E233291F8F90790063EB71 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = managerTaskParkMail/Profile.storyboard; sourceTree = "<group>"; };
+		B2E2332C1F8F909B0063EB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TaskList.storyboard; sourceTree = "<group>"; };
+		B2E2332E1F8F90B20063EB71 /* LogIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LogIn.storyboard; path = managerTaskParkMail/LogIn.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2E233011F8F72A90063EB71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2E232FB1F8F72A80063EB71 = {
+			isa = PBXGroup;
+			children = (
+				B2E233231F8F8FB90063EB71 /* View */,
+				B2E233061F8F72A90063EB71 /* managerTaskParkMail */,
+				B2E233051F8F72A90063EB71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2E233051F8F72A90063EB71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2E233041F8F72A90063EB71 /* managerTaskParkMail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2E233061F8F72A90063EB71 /* managerTaskParkMail */ = {
+			isa = PBXGroup;
+			children = (
+				B2E233071F8F72AA0063EB71 /* AppDelegate.swift */,
+				B2E2330E1F8F72AB0063EB71 /* Assets.xcassets */,
+				B2E233101F8F72AB0063EB71 /* LaunchScreen.storyboard */,
+				B2E233131F8F72AB0063EB71 /* Info.plist */,
+			);
+			path = managerTaskParkMail;
+			sourceTree = "<group>";
+		};
+		B2E233231F8F8FB90063EB71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B2E233301F8F90D00063EB71 /* Storyboards */,
+				B2E233211F8F8F810063EB71 /* ProfileViewController.swift */,
+				B2E233091F8F72AA0063EB71 /* LogInViewController.swift */,
+				B2E2331B1F8F73BC0063EB71 /* TaslListViewController.swift */,
+				B2E2331D1F8F8EF30063EB71 /* NewTaskViewController.swift */,
+				B2E233191F8F73980063EB71 /* CategoryViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B2E233301F8F90D00063EB71 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B2E2330B1F8F72AB0063EB71 /* Main.storyboard */,
+				B2E2332E1F8F90B20063EB71 /* LogIn.storyboard */,
+				B2E2332B1F8F909B0063EB71 /* TaskList.storyboard */,
+				B2E233291F8F90790063EB71 /* Profile.storyboard */,
+				B2E233261F8F90650063EB71 /* NewTask.storyboard */,
+				B2E233241F8F90290063EB71 /* Category.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2E233031F8F72A90063EB71 /* managerTaskParkMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2E233161F8F72AB0063EB71 /* Build configuration list for PBXNativeTarget "managerTaskParkMail" */;
+			buildPhases = (
+				B2E233001F8F72A90063EB71 /* Sources */,
+				B2E233011F8F72A90063EB71 /* Frameworks */,
+				B2E233021F8F72A90063EB71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = managerTaskParkMail;
+			productName = managerTaskParkMail;
+			productReference = B2E233041F8F72A90063EB71 /* managerTaskParkMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2E232FC1F8F72A90063EB71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Alphabet;
+				TargetAttributes = {
+					B2E233031F8F72A90063EB71 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A4LJ6QM875;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B2E232FF1F8F72A90063EB71 /* Build configuration list for PBXProject "managerTaskParkMail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2E232FB1F8F72A80063EB71;
+			productRefGroup = B2E233051F8F72A90063EB71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2E233031F8F72A90063EB71 /* managerTaskParkMail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2E233021F8F72A90063EB71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E2332F1F8F90B20063EB71 /* LogIn.storyboard in Resources */,
+				B2E2332D1F8F909B0063EB71 /* TaskList.storyboard in Resources */,
+				B2E2332A1F8F90790063EB71 /* Profile.storyboard in Resources */,
+				B2E233251F8F90290063EB71 /* Category.storyboard in Resources */,
+				B2E233281F8F90650063EB71 /* NewTask.storyboard in Resources */,
+				B2E233121F8F72AB0063EB71 /* LaunchScreen.storyboard in Resources */,
+				B2E2330F1F8F72AB0063EB71 /* Assets.xcassets in Resources */,
+				B2E2330D1F8F72AB0063EB71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2E233001F8F72A90063EB71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E233221F8F8F810063EB71 /* ProfileViewController.swift in Sources */,
+				B2E2330A1F8F72AA0063EB71 /* LogInViewController.swift in Sources */,
+				B2E2331E1F8F8EF30063EB71 /* NewTaskViewController.swift in Sources */,
+				B2E2331A1F8F73980063EB71 /* CategoryViewController.swift in Sources */,
+				B2E2331C1F8F73BC0063EB71 /* TaslListViewController.swift in Sources */,
+				B2E233081F8F72AA0063EB71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2E2330B1F8F72AB0063EB71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2E2330C1F8F72AB0063EB71 /* Base */,
+			);
+			name = Main.storyboard;
+			path = managerTaskParkMail;
+			sourceTree = "<group>";
+		};
+		B2E233101F8F72AB0063EB71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2E233111F8F72AB0063EB71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B2E233261F8F90650063EB71 /* NewTask.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2E233271F8F90650063EB71 /* Base */,
+			);
+			name = NewTask.storyboard;
+			path = managerTaskParkMail;
+			sourceTree = "<group>";
+		};
+		B2E2332B1F8F909B0063EB71 /* TaskList.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2E2332C1F8F909B0063EB71 /* Base */,
+			);
+			name = TaskList.storyboard;
+			path = managerTaskParkMail;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2E233141F8F72AB0063EB71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2E233151F8F72AB0063EB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2E233171F8F72AB0063EB71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A4LJ6QM875;
+				INFOPLIST_FILE = managerTaskParkMail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lul.managerTaskParkMail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B2E233181F8F72AB0063EB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A4LJ6QM875;
+				INFOPLIST_FILE = managerTaskParkMail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lul.managerTaskParkMail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2E232FF1F8F72A90063EB71 /* Build configuration list for PBXProject "managerTaskParkMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2E233141F8F72AB0063EB71 /* Debug */,
+				B2E233151F8F72AB0063EB71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2E233161F8F72AB0063EB71 /* Build configuration list for PBXNativeTarget "managerTaskParkMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2E233171F8F72AB0063EB71 /* Debug */,
+				B2E233181F8F72AB0063EB71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2E232FC1F8F72A90063EB71 /* Project object */;
+}

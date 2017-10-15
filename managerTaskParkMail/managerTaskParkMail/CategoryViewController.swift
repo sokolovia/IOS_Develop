@@ -2,17 +2,20 @@
 //  CategoryViewController.swift
 //  managerTaskParkMail
 //
-//  Created by adam musallam on 12.10.17.
+//  Created by adam musallam on 15.10.17.
 //  Copyright © 2017 Alphabet. All rights reserved.
 //
 
 import UIKit
 
-class CategoryViewController: UIViewController {
+class CategoryViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
+    @IBOutlet weak var categoryTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        categoryTableView.delegate = self
+        categoryTableView.dataSource = self
         // Do any additional setup after loading the view.
     }
 
@@ -20,8 +23,29 @@ class CategoryViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+     func numberOfSections(in tableView: UITableView) -> Int {
+        // #warning Incomplete implementation, return the number of sections
+        return 1
+    }
     
+     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        // #warning Incomplete implementation, return the number of rows
+        return 1
+    }
+ 
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "categoryCell")
+      
+        return cell!
+    }
+    @IBAction func backToLogInView(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        categoryTableView.deselectRow(at: indexPath, animated: true)
+        self.performSegue(withIdentifier: "toTaskDetail", sender: self)
+    }
     /*
     // MARK: - Navigation
 

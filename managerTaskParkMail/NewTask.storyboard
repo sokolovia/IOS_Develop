@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="0en-OB-yk9">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--New Task View Controller-->
+        <scene sceneID="oAG-A6-g0N">
+            <objects>
+                <viewController id="0en-OB-yk9" customClass="NewTaskViewController" customModule="managerTaskParkMail" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xeX-fb-Bo5"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ib0-Sy-lbI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nhh-fw-dXJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Название задания" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I2E-rV-gzl">
+                                <rect key="frame" x="114" y="136" width="147" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SuF-2m-Cfh">
+                                <rect key="frame" x="114" y="165" width="147" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="adc-5a-NI7">
+                                <rect key="frame" x="114" y="266" width="147" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="dateTextField:" destination="0en-OB-yk9" eventType="editingDidBegin" id="RJ1-I9-g38"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дэдлайн" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMX-5l-azM">
+                                <rect key="frame" x="152.5" y="237" width="70" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7o-N5-hh5">
+                                <rect key="frame" x="149.5" y="397" width="76" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="YgM-f1-pr2"/>
+                                    <constraint firstAttribute="width" constant="76" id="npi-mu-0hh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="ГОТОВО">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="doneCreatingNewTask:" destination="0en-OB-yk9" eventType="touchUpInside" id="BP2-Mc-Ixn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="adc-5a-NI7" firstAttribute="trailing" secondItem="SuF-2m-Cfh" secondAttribute="trailing" id="1aU-3u-9dM"/>
+                            <constraint firstItem="I2E-rV-gzl" firstAttribute="top" secondItem="xeX-fb-Bo5" secondAttribute="bottom" constant="116" id="6QE-SA-XqX"/>
+                            <constraint firstItem="IMX-5l-azM" firstAttribute="top" secondItem="SuF-2m-Cfh" secondAttribute="bottom" constant="42" id="8gC-Zx-CdT"/>
+                            <constraint firstItem="SuF-2m-Cfh" firstAttribute="width" secondItem="I2E-rV-gzl" secondAttribute="width" id="9v7-p1-CKR"/>
+                            <constraint firstItem="SuF-2m-Cfh" firstAttribute="top" secondItem="I2E-rV-gzl" secondAttribute="bottom" constant="8" id="BcQ-Dd-qy3"/>
+                            <constraint firstItem="Ib0-Sy-lbI" firstAttribute="top" secondItem="p7o-N5-hh5" secondAttribute="bottom" constant="240" id="Rqj-no-jE4"/>
+                            <constraint firstItem="adc-5a-NI7" firstAttribute="width" secondItem="SuF-2m-Cfh" secondAttribute="width" id="TPU-HZ-Rar"/>
+                            <constraint firstItem="p7o-N5-hh5" firstAttribute="centerX" secondItem="nhh-fw-dXJ" secondAttribute="centerX" id="YOC-Ci-C6r"/>
+                            <constraint firstItem="I2E-rV-gzl" firstAttribute="centerX" secondItem="nhh-fw-dXJ" secondAttribute="centerX" id="cym-KQ-LnL"/>
+                            <constraint firstItem="SuF-2m-Cfh" firstAttribute="centerX" secondItem="nhh-fw-dXJ" secondAttribute="centerX" id="kHB-dP-891"/>
+                            <constraint firstItem="adc-5a-NI7" firstAttribute="top" secondItem="IMX-5l-azM" secondAttribute="bottom" constant="8" id="kQL-vl-Rgj"/>
+                            <constraint firstItem="IMX-5l-azM" firstAttribute="centerX" secondItem="nhh-fw-dXJ" secondAttribute="centerX" id="tYf-gc-iGp"/>
+                            <constraint firstItem="adc-5a-NI7" firstAttribute="leading" secondItem="IMX-5l-azM" secondAttribute="trailing" constant="-108.5" id="yZr-h9-nYQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dateOutletTextField" destination="adc-5a-NI7" id="1X2-4S-XEX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Atb-ss-f1e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4232.8000000000002" y="-38.23088455772114"/>
+        </scene>
+    </scenes>
+</document>

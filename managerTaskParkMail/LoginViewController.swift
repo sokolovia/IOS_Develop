@@ -1,14 +1,14 @@
 //
-//  TaslListViewController.swift
+//  LoginViewController.swift
 //  managerTaskParkMail
 //
-//  Created by adam musallam on 12.10.17.
+//  Created by adam musallam on 15.10.17.
 //  Copyright © 2017 Alphabet. All rights reserved.
 //
 
 import UIKit
 
-class TaslListViewController: UIViewController {
+class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +20,14 @@ class TaslListViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBAction func signInButton(_ sender: Any) {
+        
+    }
     
 
+    @IBOutlet weak var nicknameTextField: UITextField!
+    
+    @IBOutlet weak var passwordTextField: UITextField!
     /*
     // MARK: - Navigation
 

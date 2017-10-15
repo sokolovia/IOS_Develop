@@ -1,14 +1,14 @@
 //
-//  NewTaskViewController.swift
+//  ShowTaskDetailsViewController.swift
 //  managerTaskParkMail
 //
-//  Created by adam musallam on 12.10.17.
+//  Created by adam musallam on 15.10.17.
 //  Copyright © 2017 Alphabet. All rights reserved.
 //
 
 import UIKit
 
-class NewTaskViewController: UIViewController {
+class ShowTaskDetailsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +21,9 @@ class NewTaskViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func backToCategoryList(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation

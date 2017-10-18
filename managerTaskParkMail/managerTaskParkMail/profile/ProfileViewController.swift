@@ -22,15 +22,16 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        
-        nameLabel.text = person.name
-        surnameLabel.text = person.surname
-        ageLabel.text = person.age
-        profLabel.text = person.prof
+        
         
 
         // Do any additional setup after loading the view.
     }
     override func viewWillAppear(_ animated: Bool) {
+        nameLabel.text = person.name
+        surnameLabel.text = person.surname
+        ageLabel.text = person.age
+        profLabel.text = person.prof
         
     }
     override func didReceiveMemoryWarning() {

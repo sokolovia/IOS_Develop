@@ -35,10 +35,10 @@ class ChangeProfileViewController: UIViewController {
         profField.resignFirstResponder()
     }
     
-    
+ /*
     @IBAction func updateProfile(_ sender: Any) {
         performSegue(withIdentifier: "id2", sender: nil)
-    }
+ }
  
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard segue.identifier == "id2" else {
@@ -52,7 +52,16 @@ class ChangeProfileViewController: UIViewController {
         person.prof = profField.text!
         
     }
+ */
     
+    @IBAction func savePressed(_ sender: Any) {
+        person.name = nameField.text!
+        person.surname = surnameField.text!
+        person.age = ageField.text!
+        person.prof = profField.text!
+        self.dismiss(animated: true, completion: nil)
+       
+    }
     /*
     // MARK: - Navigation
 
